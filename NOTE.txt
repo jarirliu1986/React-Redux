@@ -1,0 +1,11 @@
+JSX: allow programmer to write HTML like JavaScript, allows JS to produce HTML
+	IT will be transcompled to return React.creatElement(***);
+
+React: Create and manage Component
+React-DOM: used to interact with the actual DOM
+
+container in the index.html is the root node/very root of the entire React application. 
+
+export modules:
+class
+state
