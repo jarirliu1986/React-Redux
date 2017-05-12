@@ -6,6 +6,10 @@ React-DOM: used to interact with the actual DOM
 
 container in the index.html is the root node/very root of the entire React application. 
 
-export modules:
-class
-state
+-export modules:
+-class based component
+	state: plain js obj. only class component has state. We may only set state in forms of "this.state = {}" in the constructor function. Other placese we should use "this.setState({propName: val1, propName2: val2})"
+-functional component: including JSX
+
+
+controlled component: the value is set by the state. it changes only when state changes
